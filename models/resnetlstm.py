@@ -1,8 +1,5 @@
-#this will contain our classifier models, starting with ResNet LTSM
-
 # copied from 
-#https://github.com/CatoGit/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets/blob/master/deepfake_detector/pretrained_mods/efficientnetb1lstm.py 
-
+# https://github.com/CatoGit/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets
 
 import torch
 import torch.nn as nn
