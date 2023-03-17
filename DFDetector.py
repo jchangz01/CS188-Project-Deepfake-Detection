@@ -1348,7 +1348,7 @@ def label_data(dataset_path=None, dataset='uadfv', method='xception', face_crops
                         {'label': 1, 'video': video_path_test_fake + video})
         elif dataset == 'celebdf':
             # reading in the celebdf testing data
-            df_test = pd.read_csv(
+            df_test = pd.read_cdef lsv(
                 dataset_path + '/List_of_testing_videos.txt', sep=" ", header=None)
             df_test.columns = ["label", "video"]
             # switch labels so that fake label is 1
